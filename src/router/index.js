@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import Blur from '../views/Blur'
 Vue.use(VueRouter)
 
   const routes = [
@@ -9,6 +9,11 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/Blur',
+    name: 'Blur',
+    component: Blur
   },
   {
     path: '/about',
